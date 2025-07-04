@@ -1,0 +1,40 @@
+Your AI command line copilot.
+
+Usage:
+  copilot [command]
+
+Examples:
+
+$ gh copilot suggest "Install git"
+$ gh copilot explain "traceroute github.com"
+
+Examples:
+
+$ gh copilot suggest "Install git"
+$ gh copilot explain "traceroute github.com"
+
+Available Commands:
+  alias       Generate shell-specific aliases for convenience
+  config      Configure options
+  explain     Explain a command
+  suggest     Suggest a command
+
+Flags:
+  -h, --help              help for copilot
+      --hostname string   The GitHub host to use for authentication
+  -v, --version           version for copilot
+
+=========================================================================================
+
+
+python -m venv venv
+
+>> gh copilot explain "python -m venv venv"
+
+Explanation:
+
+  • python is the command to run the Python interpreter.
+    • -m venv specifies that we want to run the venv module, which is used for creating virtual environments.
+    • venv at the end specifies the name of the directory where the virtual environment will be created.
+  • This command creates a new directory named venv containing a standalone Python environment, allowing you to manage dependencies for projects separately from  
+  the system Python installation.
