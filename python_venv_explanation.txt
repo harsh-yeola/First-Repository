@@ -38,3 +38,75 @@ Explanation:
     • venv at the end specifies the name of the directory where the virtual environment will be created.
   • This command creates a new directory named venv containing a standalone Python environment, allowing you to manage dependencies for projects separately from  
   the system Python installation.
+
+==========================================================================================
+
+---- Git tutorials ----
+
+# git remote branch URL
+https://github.com/harsh-yeola/First-Repository.git
+
+[Working Directory] -> git add . -> [Staging Area] -> git commit -> [Local Repository] -> git push -> [Remote Repository]
+
+[Remote Repository] -> git fetch -> [Local Repository] -> git merge -> [Working Directory] 
+
+[Remote Repository] -> git pull -> [Working Directory] 
+
+
+-- remote branch --
+
+--
+# view remote branches
+git remote -v 
+
+# connect to remote repo branch
+git remote add <name> <repo url> 
+git remote add origin <repo url>
+
+# rename the branch to main
+git branch -M main  
+
+# rename the branch from <old name> to <new name>
+git remote rename <old name> <new name>
+
+# remove / disconnect the connection to the remote repo branch
+git remote remove <name>
+git remote remove origin
+
+git push -u origin main
+
+--
+git pull
+
+git fetch <name> <branch>
+git fetch origin <branch>
+
+-- local branch --
+
+git status
+
+git init
+
+git add .
+
+git commit -m "<comment text>"
+
+# rename local repo branch to main
+git branch -M main
+
+git remote add origin <repo url>
+git push -u origin main
+
+--
+git clone origin
+
+--
+# allows you to switch from different branches
+# switch to remote main branch
+git switch origin/main
+
+# switch to local main branch
+git switch main
+
+# just check out or take a look at what's going on inside the repository underneath the git file
+git checkout origin/main
