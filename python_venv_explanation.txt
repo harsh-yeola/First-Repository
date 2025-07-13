@@ -110,3 +110,14 @@ git switch main
 
 # just check out or take a look at what's going on inside the repository underneath the git file
 git checkout origin/main
+
+--
+# working with  branches
+
+git branch
+
+git switch
+
+git checkout
+
+git diff
