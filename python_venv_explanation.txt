@@ -132,3 +132,11 @@ especially if it merges an updated upstream into a topic branch
 4) write :wq (write & quit) **
 5) then press enter
 ------
+
+Gen AI - LangChain - core components
+
+1) Models - Inputs and Outputs - interact with LLMs through Prompt Templates
+2) Data Connections - interacting with the private data source / source of knowledge e.g. PDFs, web pages, vector stores, etc.
+3) Chains - link outputs/inputs of the different LLM calls, different types of chains for different use cases e.g. RAG, Summerisation etc.
+4) Memory - retain historical context of previous interactions with LLMs
+5) Agents - LLM based applications, performs complex multi-step tasks using different tools. agents essentially are a way of connecting a LLM to tools
